@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Layout\\MainLayout.razor.css",
               "ToolTip": "C:\\Users\\nnogu\\OneDrive\\GitHub\\nunonogueir444.github.io\\nunonogueir444\\Layout\\MainLayout.razor.css",
               "RelativeToolTip": "Layout\\MainLayout.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-17T22:38:12.025Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T22:36:40.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T22:36:40.427Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Pages\\Counter.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T22:36:35.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T22:36:35.736Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Pages\\Decode.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T22:34:54.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T22:34:54.682Z"
             }
           ]
         }

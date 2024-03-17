@@ -1,0 +1,57 @@
+@page "/xor"
+
+<h3>XOR Calculator</h3>
+
+<div>
+    <label for="hexInput">Enter Hexadecimal Value:</label>
+    <input id="hexInput" @bind="hexInput" />
+</div>
+<div>
+    <label for="xorValueInput">Enter XOR Value (Hexadecimal):</label>
+    <input id="xorValueInput" @bind="xorValueInput" />
+</div>
+<div>
+    <button @onclick="CalculateXOR">Calculate XOR</button>
+</div>
+
+@if (xorResult != null)
+{
+    <div>
+        <p>XOR Result: @xorResult</p>
+    </div>
+}
+
+@code {
+    private string hexInput;
+    private string xorValueInput;
+    private string xorResult;
+
+    private void CalculateXOR()
+    {
+        if (!string.IsNullOrWhiteSpace(hexInput) && !string.IsNullOrWhiteSpace(xorValueInput))
+        {
+            try
+            {
+                // Convert hex inputs to integers
+                int decimalValue = Convert.ToInt32(hexInput, 16);
+                int xorValue = Convert.ToInt32(xorValueInput, 16);
+                
+                // Perform XOR operation
+                int xorResultValue = decimalValue ^ xorValue;
+                
+                // Convert back to hexadecimal
+                xorResult = xorResultValue.ToString("X");
+            }
+            catch (Exception ex)
+            {
+                // Handle conversion errors
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+        else
+        {
+            // Handle empty input
+            Console.WriteLine("Error: Empty input");
+        }
+    }
+}

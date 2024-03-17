@@ -41,7 +41,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-qsQwFunoRe6Ci9WItNndP4w5j1Aa6vRNM\/6P6vKM2tI=",
+      "hash": "sha256-SzFnNQs8nurrnolDYTNfKadquSbLg20O8\/5aAKVmhcc=",
       "url": "nunonogueir444.styles.css"
     },
     {
@@ -845,17 +845,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ucR8Xowe24cRixa2DbrCHbq2hv60BgjTicIkMK069Pc=",
+      "hash": "sha256-61pxDketJzV4v5eNwEhNmjCRIx4FEDGYXf\/vtAQHN7E=",
       "url": "_framework\/nunonogueir444.wasm"
     },
     {
-      "hash": "sha256-sbAmR6k4SK\/geaOPZd5zIid9tIW7fQyBsImz054ILxM=",
+      "hash": "sha256-sLzxGaVQsSS202RF2Pb0dh0uoJ2yJOSVqimOaBM8S3Q=",
       "url": "_framework\/nunonogueir444.pdb"
     },
     {
-      "hash": "sha256-oXD81pEvaO6zXyk+kR0sak68jsLh5rO1tF\/r8aI+02o=",
+      "hash": "sha256-HWwnITh48hs0E7JMrSeDnfiNlyICron4k8jWMF1qRh4=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "2jIZBhl\/"
+  "version": "e0Gk9R9x"
 };

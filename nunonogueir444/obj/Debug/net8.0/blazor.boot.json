@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "nunonogueir444",
   "resources": {
-    "hash": "sha256-bndtZ+sEiNja7+o4NKD7gigpTTwVyCg8sDWD6IEDBVM=",
+    "hash": "sha256-WglckEXLMctxkMIpehO8bn+BVQ2JkbbMCiK8fEKyesQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.r0cdfad5os.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "nunonogueir444.wasm": "sha256-ucR8Xowe24cRixa2DbrCHbq2hv60BgjTicIkMK069Pc="
+      "nunonogueir444.wasm": "sha256-61pxDketJzV4v5eNwEhNmjCRIx4FEDGYXf/vtAQHN7E="
     },
     "pdb": {
-      "nunonogueir444.pdb": "sha256-sbAmR6k4SK/geaOPZd5zIid9tIW7fQyBsImz054ILxM="
+      "nunonogueir444.pdb": "sha256-sLzxGaVQsSS202RF2Pb0dh0uoJ2yJOSVqimOaBM8S3Q="
     }
   },
   "cacheBootResources": true,

@@ -1,0 +1,65 @@
+﻿@page "/decode"
+
+<h3>Decode</h3>
+
+<div>
+    <label for="hexInput">Enter Values (separated by comma):</label>
+    <textarea id="hexInput" @bind="hexInput"></textarea>
+    <button @onclick="CalculateXOR">Decode</button>
+</div>
+
+@if (xorResults != null)
+{
+    <div>
+        <p>Decode (ASCII):</p>
+        <ul>
+            @foreach (var result in xorResults)
+            {
+                <li>@result</li>
+            }
+        </ul>
+    </div>
+}
+
+@code {
+    private string hexInput;
+    private List<string> xorResults;
+
+    private void CalculateXOR()
+    {
+        if (!string.IsNullOrWhiteSpace(hexInput))
+        {
+            try
+            {
+                // Split the input string into individual hexadecimal values
+                var hexValues = hexInput.Split(new[] { ',', ' ', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+                xorResults = new List<string>();
+
+                foreach (var hexValue in hexValues)
+                {
+                    // Convert hex input to integer
+                    int decimalValue = Convert.ToInt32(hexValue, 16);
+
+                    // Perform XOR operation with symmetric byte A5 (hex value 0xA5)
+                    int xorValue = decimalValue ^ 0xA5;
+
+                    // Convert XOR result to ASCII
+                    var xorResultAscii = ((char)xorValue).ToString();
+
+                    // Add the ASCII result to the list
+                    xorResults.Add(xorResultAscii);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle conversion errors
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+        else
+        {
+            // Handle empty input
+            Console.WriteLine("Error: Empty input");
+        }
+    }
+}

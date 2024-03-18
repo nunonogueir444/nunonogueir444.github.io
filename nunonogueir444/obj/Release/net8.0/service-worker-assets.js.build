@@ -41,7 +41,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-ZGbYjVqtLA9riShFY15I5gG4PdsfA0HkYFhouHkhHGg=",
+      "hash": "sha256-C0+pUjS7JfwKlArVtn1kKvlg\/Es5KTP6MG1eVvhugrY=",
       "url": "nunonogueir444.styles.css"
     },
     {
@@ -845,17 +845,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-+JgUqz3hl9D5GHqg19e7DhdQ98w5f8uf+gkKJr6R64E=",
+      "hash": "sha256-qjb0A2iUCMnGwA3a5qisqLWMhwCGnZRhf0Aatm\/BfrQ=",
       "url": "_framework\/nunonogueir444.wasm"
     },
     {
-      "hash": "sha256-KnuTr8rICEWbGBw8mKug7cVsfc64DN6RFcat+P6diIU=",
+      "hash": "sha256-yhRnCqXcWyxUvw3bOF3he3O398JWSPbIlCKoA5Tokaw=",
       "url": "_framework\/nunonogueir444.pdb"
     },
     {
-      "hash": "sha256-oJWBKgDgKJYB254eEaiOC4OebcfvIqVx5slpdq8mBNY=",
+      "hash": "sha256-iBdtKP0lQr9u\/jTkpSI1mhXcMC3CGzkASB618aOvWZQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "KE3P+KA1"
+  "version": "F+Nva0zu"
 };

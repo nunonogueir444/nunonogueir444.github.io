@@ -2,6 +2,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 main {
